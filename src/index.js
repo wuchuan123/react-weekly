@@ -18,7 +18,7 @@ import Alert from "./demo/Alert/index"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Alert type="info" message="This is info" />
+    <Alert type="info" message="This is info" timeout={1000000000} />
   </React.StrictMode>,
   document.getElementById("root")
 );

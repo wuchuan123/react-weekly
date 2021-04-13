@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.scss'
+import './index.css'
 
 const Alert = ({ isDefaultShown = false, timeout = 250, type, message }) => {
     const [isShown, setIsShown] = React.useState(isDefaultShown);
