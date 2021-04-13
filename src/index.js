@@ -6,20 +6,19 @@ import reportWebVitals from "./reportWebVitals";
 // import App from './demo/MultiselectCheckbox/index';
 // import App from './demo/LimitedWordTextarea/index';
 // import Modal from './demo/Modal/index'
-import { TabItem, Tabs } from "./demo/Tabs/index";
+// import { Tabs } from "./demo/Tabs/index";
+// import Tables from './ant/table'
 
 // import App from './hooks/callback/index';
+// import {AccordionItem,Accordion} from "./demo/Accordion/index"
+// import TreeView from "./demo/TreeView/index";
+import Alert from "./demo/Alert/index"
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Tabs defaultIndex="1" onTabClick={console.log}>
-      <TabItem label="A" index="1">
-        Lorem ipsum
-      </TabItem>
-      <TabItem label="B" index="2">
-        Dolor sit amet
-      </TabItem>
-    </Tabs>
+    <Alert type="info" message="This is info" />
   </React.StrictMode>,
   document.getElementById("root")
 );

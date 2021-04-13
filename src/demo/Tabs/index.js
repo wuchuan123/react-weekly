@@ -1,6 +1,11 @@
 import React from 'react'
 import './index.css'
-const TabItem = props => <div {...props} />;
+const TabItem = props => {
+  debugger
+  return(
+    <div {...props} />
+  )
+};
 
 const Tabs = ({ defaultIndex = 0, onTabClick, children }) => {
   const [bindIndex, setBindIndex] = React.useState(defaultIndex);
